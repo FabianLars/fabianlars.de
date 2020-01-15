@@ -1,0 +1,14 @@
+[package]
+name = "hello-rocket"
+version = "0.1.0"
+authors = ["FabianLars <fabianlars@fabianlars.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket="^0.4.2"
+rust-embed="^5.2.0"
+reqwest = { version = "^0.10", features = ["blocking", "json"] }
+serde_json = "^1.0"
+serde = { version = "1.0", features = ["derive"] }
