@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend-rocket/backend-rocket.iml" filepath="$PROJECT_DIR$/backend-rocket/backend-rocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-warp/backend-warp.iml" filepath="$PROJECT_DIR$/backend-warp/backend-warp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend-preact/frontend-preact.iml" filepath="$PROJECT_DIR$/frontend-preact/frontend-preact.iml" />
+    </modules>
+  </component>
+</project>
