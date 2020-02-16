@@ -1,7 +1,8 @@
-use warp::{Filter, http::Uri};
-use serde::{Serialize, Deserialize};
 use std::collections::HashMap;
 use std::fs::File;
+
+use serde::{Deserialize, Serialize};
+use warp::{Filter, http::Uri};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -88,7 +89,7 @@ async fn update_champs() -> Result<impl warp::Reply, warp::Rejection> {
     let mut champions = HashMap::new();
 
     for c in data.iter() {
-        if c.id == -1 { continue };
+        if c.id == -1 { continue; };
         let temp = Champ {
             name: c.name.clone(),
             codename: c.alias.to_lowercase(),
@@ -102,7 +103,7 @@ async fn update_champs() -> Result<impl warp::Reply, warp::Rejection> {
     for (s, c) in data2.iter() {
         let skinpart: Vec<char> = s.chars().rev().take(3).collect();
         let skinid = format!("{}{}{}", skinpart[2], skinpart[1], skinpart[0]).parse::<i32>().unwrap();
-        let champpart: Vec<char> = s.chars().take(c.id.to_string().len()-3).collect();
+        let champpart: Vec<char> = s.chars().take(c.id.to_string().len() - 3).collect();
         let champstring: String = champpart.into_iter().collect();
         let champid: i32 = champstring.parse::<i32>().unwrap();
 
