@@ -20,8 +20,8 @@
     },
     "homepage": "https://github.com/FabianLars/fabianlars.de#readme",
     "devDependencies": {
-        "@babel/cli": "^7.8.3",
-        "@babel/core": "^7.8.3",
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.8.4",
         "@babel/preset-react": "^7.8.3",
         "babel-loader": "^8.0.6",
         "babel-plugin-syntax-dynamic-import": "^6.18.0",
@@ -30,19 +30,19 @@
         "html-loader": "^0.5.5",
         "html-webpack-plugin": "^3.2.0",
         "mini-css-extract-plugin": "^0.9.0",
-        "node-sass": "^4.13.0",
+        "node-sass": "^4.13.1",
         "optimize-css-assets-webpack-plugin": "^5.0.3",
         "sass-loader": "^8.0.2",
-        "webpack": "^4.41.5",
-        "webpack-cli": "^3.3.10",
-        "webpack-dev-server": "^3.10.1",
+        "webpack": "^4.41.6",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3",
         "webpack-merge": "^4.2.2"
     },
     "dependencies": {
-        "@material-ui/core": "^4.8.3",
-        "@material-ui/icons": "^4.5.1",
-        "@material-ui/styles": "^4.8.2",
-        "preact": "^10.2.1",
+        "@material-ui/core": "^4.9.3",
+        "@material-ui/icons": "^4.9.1",
+        "@material-ui/styles": "^4.9.0",
+        "preact": "^10.3.2",
         "react-router-dom": "^5.1.2"
     }
 }
