@@ -20,7 +20,7 @@
     },
     "homepage": "https://github.com/FabianLars/fabianlars.de#readme",
     "devDependencies": {
-        "@babel/cli": "^7.8.3",
+        "@babel/cli": "^7.8.4",
         "@babel/core": "^7.8.3",
         "@babel/preset-react": "^7.8.3",
         "babel-loader": "^8.0.6",
