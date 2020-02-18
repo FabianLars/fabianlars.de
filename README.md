@@ -14,6 +14,8 @@ more or less connected to [wtools](https://github.com/FabianLars/wtools)
     -   redirects to the 3D-Skinviewer on [teemo.gg](https://www.teemo.gg/model-viewer) via [communitydragon](https://communitydragon.org) files.
 -   server_url/wapi/update/champs
     -   updates champion data (local json file)
+-   server_url/wapi/champs
+    -   returns local json file mentioned above
 
 # Important!
 
