@@ -108,4 +108,4 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
-# End of https://www.gitignore.io/api/phpstorm
+# End of https://www.gitignore.io/api/phpstormpackage-lock.json
