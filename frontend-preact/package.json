@@ -21,13 +21,13 @@
     "homepage": "https://github.com/FabianLars/fabianlars.de#readme",
     "devDependencies": {
         "@babel/cli": "^7.8.4",
-        "@babel/core": "^7.8.7",
-        "@babel/preset-react": "^7.8.3",
-        "babel-loader": "^8.0.6",
+        "@babel/core": "^7.9.0",
+        "@babel/preset-react": "^7.9.1",
+        "babel-loader": "^8.1.0",
         "babel-plugin-syntax-dynamic-import": "^6.18.0",
         "clean-webpack-plugin": "^3.0.0",
-        "file-loader": "^5.1.0",
-        "html-loader": "^0.5.5",
+        "file-loader": "^6.0.0",
+        "html-loader": "^1.0.0",
         "html-webpack-plugin": "^3.2.0",
         "mini-css-extract-plugin": "^0.9.0",
         "node-sass": "^4.13.1",
@@ -39,9 +39,9 @@
         "webpack-merge": "^4.2.2"
     },
     "dependencies": {
-        "@material-ui/core": "^4.9.5",
+        "@material-ui/core": "^4.9.7",
         "@material-ui/icons": "^4.9.1",
-        "@material-ui/styles": "^4.9.0",
+        "@material-ui/styles": "^4.9.6",
         "preact": "^10.3.4",
         "react-router-dom": "^5.1.2"
     }
