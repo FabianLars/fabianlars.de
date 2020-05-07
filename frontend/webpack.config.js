@@ -8,13 +8,14 @@ module.exports = (env, argv) => {
     devServer: {
       contentBase: distPath,
       compress: argv.mode === 'production',
-      port: 8000
+      port: 8000,
+      historyApiFallback: true
     },
     entry: './bootstrap.js',
     output: {
       path: distPath,
-      filename: "todomvc.js",
-      webassemblyModuleFilename: "todomvc.wasm"
+      filename: "main.js",
+      webassemblyModuleFilename: "main.wasm"
     },
     module: {
       rules: [
@@ -24,6 +25,12 @@ module.exports = (env, argv) => {
             'style-loader',
             'css-loader',
             'sass-loader',
+          ],
+        },
+        {
+          test: /\.(woff|woff2|eot|ttf|otf)$/,
+          use: [
+            'file-loader',
           ],
         },
       ],

@@ -23,12 +23,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c02b89-3a93-4677-adbc-e85f8d3abdb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/apps.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/art.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/mods.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/LICENSE_APACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/LICENSE_MIT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app.rs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-Black.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-BlackItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-BlackItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-BoldItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-BoldItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-LightItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-LightItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-MediumItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-MediumItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-RegularItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-RegularItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-Thin.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-Thin.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/BrandonGrotesque-ThinItalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/BrandonGrotesque-ThinItalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_bld.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_bld.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_bld_it.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_bld_it.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_blk.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_blk.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_blk_it.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_blk_it.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_light.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_light.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_light_it.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_light_it.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_med.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_med.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_med_it.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_med_it.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_reg.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_reg.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_reg_it.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_reg_it.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_thin.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_thin.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/fonts/otf/Brandon_thin_it.otf" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/fonts/otf/Brandon_thin_it.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/humans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/humans.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/img/GitHub-Mark-120px-plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/GitHub-Mark-120px-plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/img/GitHub-Mark-32px.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/GitHub-Mark-32px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/img/GitHub-Mark-64px.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/GitHub-Mark-64px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/img/GitHub-Mark-Light-120px-plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/GitHub-Mark-Light-120px-plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/img/GitHub-Mark-Light-32px.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/GitHub-Mark-Light-32px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/img/GitHub-Mark-Light-64px.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/img/GitHub-Mark-Light-64px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_old/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,8 +104,14 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fabian-Lars\Desktop\dev\fabianlars.de\frontend\static" />
+    </key>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1588882101321</updated>
     </task>
+    <task id="LOCAL-00001" summary="x">
+      <created>1588882333579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588882333579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,11 +141,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="x" />
+    <option name="LAST_COMMIT_MESSAGE" value="x" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1024" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588886102876">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1024" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.92.1680.1010@0.0.2560.1400" timestamp="1588886102876" />
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1588883134565">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.92.1680.1010@0.0.2560.1400" timestamp="1588883134565" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1588882280561">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/2560.92.1680.1010@0.0.2560.1400" timestamp="1588882280561" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1588882335447">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.92.1680.1010@0.0.2560.1400" timestamp="1588882335447" />
   </component>
 </project>
