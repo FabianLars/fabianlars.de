@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "frontend",
+    "backend"
+]
+
+[profile.release]
+lto=true
+panic='abort'
