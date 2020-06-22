@@ -11,6 +11,13 @@ $test: #fff;
   src: url("fonts/BrandonGrotesque-Bold.woff") format("opentype");
 }
 
+// normalize
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #051622;
   color: #869BA9;
