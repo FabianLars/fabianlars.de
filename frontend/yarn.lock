@@ -880,8 +880,8 @@ crypto-browserify@^3.11.0:
     randomfill "^1.0.3"
 
 css-loader@^4:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-4.0.0.tgz#814434d4e1e2d5f430c70e85e78268db7f3cced1"
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-4.1.0.tgz#8d1ecb1ba280438c0b80444cc44e2caef96ae81a"
   dependencies:
     camelcase "^6.0.0"
     cssesc "^3.0.0"
