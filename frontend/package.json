@@ -9,7 +9,7 @@
   "devDependencies": {
     "@wasm-tool/wasm-pack-plugin": "^1",
     "copy-webpack-plugin": "^6",
-    "css-loader": "^3",
+    "css-loader": "^4",
     "sass": "^1",
     "sass-loader": "^9",
     "style-loader": "^1",
