@@ -15,7 +15,7 @@
     "style-loader": "^2",
     "wasm-pack": "^0",
     "webpack": "^4",
-    "webpack-cli": "^3",
+    "webpack-cli": "^4",
     "webpack-dev-server": "^3"
   },
   "dependencies": {
