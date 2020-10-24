@@ -9,7 +9,10 @@ module.exports = (env, argv) => {
       contentBase: distPath,
       compress: argv.mode === 'production',
       port: 8000,
-      historyApiFallback: true
+      historyApiFallback: true,
+    },
+    experiments: {
+      asyncWebAssembly: true,
     },
     entry: './bootstrap.js',
     output: {
@@ -36,14 +39,16 @@ module.exports = (env, argv) => {
       ],
     },
     plugins: [
-      new CopyWebpackPlugin([
-        { from: './static', to: distPath }
-      ]),
+      new CopyWebpackPlugin({
+        patterns: [
+          { from: './static', to: distPath },
+        ],
+      }),
       new WasmPackPlugin({
         crateDirectory: ".",
         extraArgs: "--no-typescript",
       })
     ],
-    watch: argv.mode !== 'production'
+    watch: argv.mode !== 'production',
   };
 };
