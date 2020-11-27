@@ -28,7 +28,7 @@ jobs:
                   target-server: ${{ secrets.SERVER_IP }}
                   remote-user: ${{ secrets.USERNAME }}
                   remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
-                  rsync-options: ''
+                  rsync-options: --exclude=nothing.lol
                   local_path: 'target/release/'
                   remote_path: '~/wwwbackend'
                   args: '-o ConnectTimeout=5'

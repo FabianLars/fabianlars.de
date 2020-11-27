@@ -44,7 +44,7 @@ jobs:
                   target-server: ${{ secrets.SERVER_IP }}
                   remote-user: ${{ secrets.USERNAME }}
                   remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
-                  rsync-options: ''
+                  rsync-options: --exclude=nothing.lol
                   local_path: 'dist/*'
                   remote_path: '~/wwwhtml'
                   args: '-o ConnectTimeout=5'
