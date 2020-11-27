@@ -4,8 +4,8 @@ on:
     push:
         branches:
             - master
-        paths:
-            - 'frontend/**'
+#        paths:
+#            - 'frontend/**'
 
 defaults:
     run:
@@ -39,7 +39,7 @@ jobs:
               run: npm run build
 
             - name: Publish
-              uses: wlixcc/web-deploy@master
+              uses: SamKirkland/web-deploy@master
               with:
                   target-server: ${{ secrets.SERVER_IP }}
                   remote-user: ${{ secrets.USERNAME }}

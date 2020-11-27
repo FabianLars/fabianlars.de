@@ -4,8 +4,8 @@ on:
     push:
         branches:
             - master
-        paths:
-            - 'backend/**'
+#        paths:
+#            - 'backend/**'
 
 jobs:
     backend:
@@ -23,7 +23,7 @@ jobs:
               run: mv target/release/backend target/release/wapi
 
             - name: Publish
-              uses: wlixcc/SFTP-Deploy-Action@master
+              uses: SamKirkland/SFTP-Deploy-Action@master
               with:
                   target-server: ${{ secrets.SERVER_IP }}
                   remote-user: ${{ secrets.USERNAME }}
