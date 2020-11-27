@@ -29,9 +29,8 @@ jobs:
                   remote-user: ${{ secrets.USERNAME }}
                   remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
                   rsync-options: --exclude=nothing.lol
-                  local_path: 'target/release/'
-                  remote_path: '~/wwwbackend'
-                  args: '-o ConnectTimeout=5'
+                  source-path: 'target/release/'
+                  destination-path: '~/wwwbackend'
 
             - name: File permissions
               uses: appleboy/ssh-action@master

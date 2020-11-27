@@ -45,6 +45,5 @@ jobs:
                   remote-user: ${{ secrets.USERNAME }}
                   remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
                   rsync-options: --exclude=nothing.lol
-                  local_path: 'dist/*'
-                  remote_path: '~/wwwhtml'
-                  args: '-o ConnectTimeout=5'
+                  source-path: 'dist/*'
+                  destination-path: '~/wwwhtml'
