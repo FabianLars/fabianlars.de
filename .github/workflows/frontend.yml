@@ -39,7 +39,7 @@ jobs:
               run: npm run build
 
             - name: Publish
-              uses: wlixcc/SFTP-Deploy-Action@v1
+              uses: wlixcc/SFTP-Deploy-Action@master
               with:
                   username: ${{ secrets.USERNAME }}
                   server: ${{ secrets.SERVER_IP }}
