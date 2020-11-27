@@ -23,7 +23,7 @@ jobs:
               run: mv target/release/backend target/release/wapi
 
             - name: Publish
-              uses: wlixcc/SFTP-Deploy-Action@v1
+              uses: wlixcc/SFTP-Deploy-Action@master
               with:
                   username: 'fabianlars'
                   server: '${{ secrets.SERVER_IP }}'
