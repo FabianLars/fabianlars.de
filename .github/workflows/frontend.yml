@@ -1,0 +1,42 @@
+name: Deploy frontend
+
+on:
+    push:
+        branches:
+            - master
+        paths:
+            - 'frontend/**'
+
+defaults:
+    run:
+        working-directory: frontend
+
+jobs:
+    frontend:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup Rust
+            - uses: hecrj/setup-rust-action@v1
+              with:
+                  targets: wasm32-unknown-unknown
+
+            - name: Download wasm-pack
+            - uses: jetli/wasm-pack-action@v0.3.0
+              with:
+                  version: 'latest'
+
+            - Setup Node
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: '14'
+
+            - name: Install
+              run: npm install
+
+            - name: Build
+              run: npm run build
+
+            - name: Publish
+              run: cargo test # placeholder

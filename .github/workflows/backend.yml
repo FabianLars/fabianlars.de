@@ -1,0 +1,24 @@
+name: Deploy backend
+
+on:
+    push:
+        branches:
+            - master
+        paths:
+            - 'backend/**'
+
+defaults:
+    run:
+        working-directory: backend
+
+jobs:
+    backend:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Setup Rust
+            - uses: hecrj/setup-rust-action@v1
+
+            - name: Publish
+              run: cargo test # placeholder

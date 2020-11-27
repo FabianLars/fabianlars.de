@@ -1,0 +1,14 @@
+name: Test
+on: [push, pull_request]
+jobs:
+    all:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: hecrj/setup-rust-action@v1
+              with:
+                  rust-version: nightly
+            - uses: actions/checkout@v2
+            - name: Run tests
+              run: |
+                  cargo test --verbose --all
+                  cargo test --verbose --all --all-features
