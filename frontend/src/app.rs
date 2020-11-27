@@ -37,7 +37,7 @@ impl Component for App {
         html! {
             <><nav>
                 <div class="nav-menu">
-                    <RouterAnchor<AppRoute> route=AppRoute::Home/* style="text-decoration: underline"*/>{"Home"}</RouterAnchor<AppRoute>>
+                    <RouterAnchor<AppRoute> route=AppRoute::Home>{"Home"}</RouterAnchor<AppRoute>>
                     <RouterAnchor<AppRoute> route=AppRoute::Art>{"3D"}</RouterAnchor<AppRoute>>
                     <RouterAnchor<AppRoute> route=AppRoute::Apps>{"Apps"}</RouterAnchor<AppRoute>>
                     <RouterAnchor<AppRoute> route=AppRoute::Mods>{"Mods"}</RouterAnchor<AppRoute>>
