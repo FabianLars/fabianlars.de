@@ -41,8 +41,6 @@ impl Component for App {
                     <RouterAnchor<AppRoute> route=AppRoute::Art>{"3D"}</RouterAnchor<AppRoute>>
                     <RouterAnchor<AppRoute> route=AppRoute::Apps>{"Apps"}</RouterAnchor<AppRoute>>
                     <RouterAnchor<AppRoute> route=AppRoute::Mods>{"Mods"}</RouterAnchor<AppRoute>>
-            //<!--      <a href="index.html">How-Tos</a>-->
-            //<!--      <a href="index.html">Photography</a>-->
                 </div>
                 <div style="text-align: center">
                     <RouterAnchor<AppRoute> route=AppRoute::Home><img src="icon.png" alt="FabianLars' Logo" style="width:100px" /></RouterAnchor<AppRoute>>
