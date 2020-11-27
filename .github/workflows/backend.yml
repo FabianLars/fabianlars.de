@@ -25,9 +25,9 @@ jobs:
             - name: Publish
               uses: wlixcc/SFTP-Deploy-Action@master
               with:
-                  username: 'fabianlars'
-                  server: '${{ secrets.SERVER_IP }}'
-                  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  target-server: ${{ secrets.SERVER_IP }}
+                  remote-user: ${{ secrets.USERNAME }}
+                  remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
                   local_path: 'target/release/'
                   remote_path: '~/wwwbackend'
                   args: '-o ConnectTimeout=5'

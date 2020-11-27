@@ -39,11 +39,11 @@ jobs:
               run: npm run build
 
             - name: Publish
-              uses: wlixcc/SFTP-Deploy-Action@master
+              uses: wlixcc/web-deploy@master
               with:
-                  username: ${{ secrets.USERNAME }}
-                  server: ${{ secrets.SERVER_IP }}
-                  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  target-server: ${{ secrets.SERVER_IP }}
+                  remote-user: ${{ secrets.USERNAME }}
+                  remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
                   local_path: 'dist/*'
                   remote_path: '~/wwwhtml'
                   args: '-o ConnectTimeout=5'
