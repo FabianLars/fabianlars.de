@@ -7,10 +7,6 @@ on:
         paths:
             - 'backend/**'
 
-defaults:
-    run:
-        working-directory: backend
-
 jobs:
     backend:
         runs-on: ubuntu-latest
@@ -20,5 +16,26 @@ jobs:
             - name: Setup Rust
               uses: hecrj/setup-rust-action@v1
 
+            - name: Build
+              run: cargo build -p backend --release
+
+            - name: Rename file
+              run: mv target/release/backend target/release/wapi
+
             - name: Publish
-              run: cargo test # placeholder
+              uses: wlixcc/SFTP-Deploy-Action@v1
+              with:
+                  username: 'fabianlars'
+                  server: '${{ secrets.SERVER_IP }}'
+                  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  local_path: 'target/release/'
+                  remote_path: '~/wwwbackend'
+                  args: '-o ConnectTimeout=5'
+
+            - name: File permissions
+              uses: appleboy/ssh-action@master
+              with:
+                  host: ${{ secrets.SERVER_IP }}
+                  username: ${{ secrets.USERNAME }}
+                  key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  script: cd ~/wwwbackend && sudo ./rights.sh

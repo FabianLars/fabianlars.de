@@ -39,4 +39,11 @@ jobs:
               run: npm run build
 
             - name: Publish
-              run: cargo test # placeholder
+              uses: wlixcc/SFTP-Deploy-Action@v1
+              with:
+                  username: ${{ secrets.USERNAME }}
+                  server: ${{ secrets.SERVER_IP }}
+                  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  local_path: 'dist/*'
+                  remote_path: '~/wwwhtml'
+                  args: '-o ConnectTimeout=5'
