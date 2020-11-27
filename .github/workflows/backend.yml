@@ -23,11 +23,12 @@ jobs:
               run: mv target/release/backend target/release/wapi
 
             - name: Publish
-              uses: SamKirkland/SFTP-Deploy-Action@master
+              uses: SamKirkland/web-deploy@master
               with:
                   target-server: ${{ secrets.SERVER_IP }}
                   remote-user: ${{ secrets.USERNAME }}
                   remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  rsync-options: --exclude "nothing.lol"
                   local_path: 'target/release/'
                   remote_path: '~/wwwbackend'
                   args: '-o ConnectTimeout=5'
