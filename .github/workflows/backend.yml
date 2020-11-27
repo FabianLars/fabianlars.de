@@ -23,14 +23,13 @@ jobs:
               run: mv target/release/backend target/release/wapi
 
             - name: Publish
-              uses: SamKirkland/web-deploy@master
+              uses: easingthemes/ssh-deploy@v2
               with:
-                  target-server: ${{ secrets.SERVER_IP }}
-                  remote-user: ${{ secrets.USERNAME }}
-                  remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
-                  rsync-options: --exclude=nothing.lol
-                  source-path: 'target/release/'
-                  destination-path: '~/wwwbackend'
+                  REMOTE_HOST: ${{ secrets.SERVER_IP }}
+                  REMOTE_USER: ${{ secrets.USERNAME }}
+                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+                  SOURCE: 'target/release/'
+                  TARGET: '~/wwwbackend'
 
             - name: File permissions
               uses: appleboy/ssh-action@master

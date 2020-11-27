@@ -39,11 +39,10 @@ jobs:
               run: npm run build
 
             - name: Publish
-              uses: SamKirkland/web-deploy@master
+              uses: easingthemes/ssh-deploy@v2
               with:
-                  target-server: ${{ secrets.SERVER_IP }}
-                  remote-user: ${{ secrets.USERNAME }}
-                  remote-key: ${{ secrets.SSH_PRIVATE_KEY }}
-                  rsync-options: --exclude=nothing.lol
-                  source-path: 'dist/*'
-                  destination-path: '~/wwwhtml'
+                  REMOTE_HOST: ${{ secrets.SERVER_IP }}
+                  REMOTE_USER: ${{ secrets.USERNAME }}
+                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+                  SOURCE: 'dist/'
+                  TARGET: '~/wwwhtml'
