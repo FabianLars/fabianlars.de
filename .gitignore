@@ -2,3 +2,10 @@ target/
 Cargo.lock
 champions.json
 history.json
+**/*.rs.bk
+package-lock.json
+bin/
+pkg/
+dist/
+wasm-pack.log
+node_modules/
