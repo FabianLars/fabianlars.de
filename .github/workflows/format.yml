@@ -9,7 +9,7 @@ on:
             - master
 
 jobs:
-    all:
+    backend:
         runs-on: ubuntu-latest
         steps:
             - uses: hecrj/setup-rust-action@v1
