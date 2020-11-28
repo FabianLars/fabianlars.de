@@ -39,7 +39,7 @@ jobs:
               run: npm run build
 
             - name: Publish
-              uses: easingthemes/ssh-deploy@v2
+              uses: easingthemes/ssh-deploy@master
               with:
                   REMOTE_HOST: ${{ secrets.SERVER_IP }}
                   REMOTE_USER: ${{ secrets.USERNAME }}
