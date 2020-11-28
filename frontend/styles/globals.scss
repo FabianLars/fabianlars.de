@@ -1,14 +1,12 @@
-html,
-body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-        Helvetica Neue, sans-serif;
+@font-face {
+    font-family: BrandonGrotesque;
+    src: url('../public/fonts/BrandonGrotesque-Regular.woff') format('opentype');
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
+@font-face {
+    font-family: BrandonGrotesque;
+    font-weight: bold;
+    src: url('../public/fonts/BrandonGrotesque-Bold.woff') format('opentype');
 }
 
 /* normalize */
@@ -18,4 +16,45 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #051622;
+    color: #869ba9;
+    font-size: 18px;
+    font-family: BrandonGrotesque, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    max-width: 1556px;
+    height: 150px;
+    padding: 25px 20px;
+    margin: 0 auto;
+    border-bottom: 1px #deb992 solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > div {
+        height: 100%;
+        line-height: 150px;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+
+        & > a {
+            text-align: center;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+    }
+}
+
+.nav-menu > a {
+    margin-right: 45px;
 }
