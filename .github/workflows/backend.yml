@@ -23,8 +23,8 @@ jobs:
             - name: Build
               run: cargo build --release
 
-            - name: Rename file
-              run: mkdir target/release/dist/ && mv target/release/backend target/release/dist/wapi
+            - name: Move file
+              run: mkdir target/release/dist/ && mv target/release/backend target/release/dist/backend
 
             - name: Publish
               uses: easingthemes/ssh-deploy@master
