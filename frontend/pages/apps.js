@@ -1,1 +1,3 @@
-export default Apps = () => <></>;
+export default function Apps() {
+    return <div></div>;
+}
