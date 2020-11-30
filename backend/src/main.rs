@@ -6,7 +6,7 @@ async fn main() {
 
     let champion = warp::path!("wiki" / "champions" / u16).and_then(|id: u16| get_champion(id));
 
-    let v1 = warp::path!("v1").and(champions.or(champion));
+    let v1 = warp::path!("v1" / ..).and(champions.or(champion));
 
     warp::serve(v1).run(([127, 0, 0, 1], 3030)).await;
 }
