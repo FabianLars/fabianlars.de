@@ -2,6 +2,8 @@ use warp::{Filter, Rejection};
 
 #[tokio::main]
 async fn main() {
+    pretty_env_logger::init();
+
     let champions = warp::path!("wiki" / "champions").and(warp::fs::file("./champions.json"));
 
     let champion = warp::path!("wiki" / "champions" / u16).and_then(|id: u16| get_champion(id));
