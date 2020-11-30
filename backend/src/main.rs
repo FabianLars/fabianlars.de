@@ -2,8 +2,6 @@ use warp::{Filter, Rejection};
 
 #[tokio::main]
 async fn main() {
-    //pretty_env_logger::init();
-
     let get_champion_file =
         warp::path!("wiki" / "champion").and(warp::fs::file("./champions.json"));
 
