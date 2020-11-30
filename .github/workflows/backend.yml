@@ -17,7 +17,7 @@ jobs:
               uses: hecrj/setup-rust-action@v1
 
             - name: Build
-              run: cargo build -p backend --release
+              run: cd backend && cargo build --release
 
             - name: Rename file
               run: mkdir target/release/dist/ && mv target/release/backend target/release/dist/wapi
