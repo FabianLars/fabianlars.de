@@ -17,4 +17,4 @@ jobs:
                   components: rustfmt
             - uses: actions/checkout@v2
             - name: Check format
-              run: cargo fmt --all -- --check
+              run: cd backend && cargo fmt --all -- --check
