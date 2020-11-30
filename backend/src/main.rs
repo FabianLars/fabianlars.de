@@ -2,8 +2,8 @@ use warp::{Filter, Rejection};
 
 #[tokio::main]
 async fn main() {
-    let get_champion_file =
-        warp::path!("wiki" / "champion").and(warp::fs::file("./champions.json"));
+    let get_champion_file = warp::path!("wiki" / "champion")
+        .map(|| warp::redirect(warp::http::Uri::from_static("/v1/wiki/champions")));
 
     let champions = warp::path!("wiki" / "champions").and(warp::fs::file("./champions.json"));
 
