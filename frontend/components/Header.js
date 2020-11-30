@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Header() {
@@ -21,13 +20,13 @@ export default function Header() {
             <div style={{ textAlign: 'center' }}>
                 <Link href="/">
                     <a>
-                        <Image src="/icon.png" alt="FabianLars' Logo" width={100} height={100} />
+                        <img src="/icon.png" alt="FabianLars' Logo" width={100} height={100} />
                     </a>
                 </Link>
             </div>
             <div className="nav-outbound" style={{ textAlign: 'right' }}>
                 <a href="https://github.com/FabianLars">
-                    <Image src="/img/GitHub-Mark-Light-32px.png" alt="GitHub Logo" width={32} height={32} />
+                    <img src="/img/GitHub-Mark-Light-32px.png" alt="GitHub Logo" width={32} height={32} />
                 </a>
             </div>
         </nav>
