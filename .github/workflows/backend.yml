@@ -7,6 +7,10 @@ on:
         paths:
             - 'backend/**'
 
+defaults:
+    run:
+        working-directory: backend
+
 jobs:
     backend:
         runs-on: ubuntu-latest
@@ -17,7 +21,7 @@ jobs:
               uses: hecrj/setup-rust-action@v1
 
             - name: Build
-              run: cd backend && cargo build --release
+              run: cargo build --release
 
             - name: Rename file
               run: mkdir target/release/dist/ && mv target/release/backend target/release/dist/wapi
@@ -28,7 +32,7 @@ jobs:
                   REMOTE_HOST: ${{ secrets.SERVER_IP }}
                   REMOTE_USER: ${{ secrets.USERNAME }}
                   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-                  SOURCE: 'target/release/dist/'
+                  SOURCE: 'backend/target/release/dist/'
                   TARGET: '~/wwwbackend'
 
             - name: File permissions
