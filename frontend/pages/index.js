@@ -14,7 +14,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <div className={styles.grid}>
-                    <a href="https://nextjs.org/docs" className={styles.card}>
+                    {/* <a href="https://nextjs.org/docs" className={styles.card}>
                         <h3>Documentation &rarr;</h3>
                         <p>Find in-depth information about Next.js features and API.</p>
                     </a>
@@ -35,7 +35,7 @@ export default function Home() {
                     >
                         <h3>Deploy &rarr;</h3>
                         <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
-                    </a>
+                    </a> */}
                 </div>
             </main>
 
