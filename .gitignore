@@ -40,9 +40,9 @@ yarn-error.log*
 .vercel
 
 # yarn
-.yarn/*
-!.yarn/cache
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
+frontend/.yarn/*
+!frontend/.yarn/cache
+!frontend/.yarn/releases
+!frontend/.yarn/plugins
+!frontend/.yarn/sdks
+!frontend/.yarn/versions
