@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS rotations;
 CREATE TABLE rotations (
     id SERIAL PRIMARY KEY,
-    start_date DATE NOT NULL,
+    start_date DATE NOT NULL UNIQUE,
     end_date DATE NOT NULL,
     champions TEXT[] NOT NULL
 );
