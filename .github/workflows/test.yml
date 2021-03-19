@@ -10,7 +10,7 @@ on:
 
 env:
     DATABASE_URL: 'postgres://postgres:postgres@localhost:5432/postgres'
-    PG_PASSWORD: postgres
+    PGPASSWORD: postgres
 
 jobs:
     backend:
