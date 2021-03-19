@@ -56,6 +56,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
+// Custom Filter to pipe PgPool into functions
 fn with_db(
     pool: PgPool,
 ) -> impl Filter<Extract = (PgPool,), Error = std::convert::Infallible> + Clone {
