@@ -11,6 +11,9 @@ defaults:
     run:
         working-directory: backend
 
+env:
+    DATABASE_URL: 'postgres://postgres:postgres@localhost:5432/postgres'
+
 jobs:
     backend:
         runs-on: ubuntu-latest
