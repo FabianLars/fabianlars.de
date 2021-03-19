@@ -8,14 +8,37 @@ on:
         branches-ignore:
             - master
 
+env:
+    DATABASE_URL: 'postgres://postgres:postgres@localhost:5432/postgres'
+    POSTGRES_DB: postgres
+    POSTGRES_PASSWORD: postgres
+    POSTGRES_USER: postgres
+
 jobs:
     backend:
         runs-on: ubuntu-latest
+
+        services:
+            postgres:
+                image: postgres:latest
+                ports:
+                    - 5432:5432
+                options: >-
+                    --health-cmd pg_isready
+                    --health-interval 10s
+                    --health-timeout 5s
+                    --health-retries 5
+
         steps:
             - uses: hecrj/setup-rust-action@v1
               with:
                   rust-version: nightly
+
             - uses: actions/checkout@v2
+
+            - name: Set up rotations table
+              run: psql -U postgresql -d postgresql -a -f backend/sql/rotations.sql
+
             - name: Run tests
               run: |
                   cd backend

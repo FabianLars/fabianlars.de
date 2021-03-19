@@ -5,7 +5,7 @@ use warp::{reply::Json, Filter, Rejection};
 
 #[derive(Serialize)]
 struct Rotation {
-    rotation_id: i32,
+    id: i32,
     start_date: NaiveDate,
     end_date: NaiveDate,
     champions: Vec<String>,
@@ -86,26 +86,19 @@ async fn get_rotations(pool: PgPool) -> Result<Json, Rejection> {
 }
 
 async fn get_rotation(id: u16, pool: PgPool) -> Result<Json, Rejection> {
-    let row = sqlx::query_as!(
-        Rotation,
-        "SELECT * FROM rotations WHERE rotation_id = $1",
-        id as i32,
-    )
-    .fetch_one(&pool)
-    .await
-    .map_err(|_| warp::reject::not_found())?;
+    let row = sqlx::query_as!(Rotation, "SELECT * FROM rotations WHERE id = $1", id as i32,)
+        .fetch_one(&pool)
+        .await
+        .map_err(|_| warp::reject::not_found())?;
 
     Ok(warp::reply::json(&row))
 }
 
 async fn get_rotation_latest(pool: PgPool) -> Result<Json, Rejection> {
-    let row = sqlx::query_as!(
-        Rotation,
-        "SELECT * FROM rotations ORDER BY rotation_id DESC LIMIT 1"
-    )
-    .fetch_one(&pool)
-    .await
-    .map_err(|_| warp::reject::not_found())?;
+    let row = sqlx::query_as!(Rotation, "SELECT * FROM rotations ORDER BY id DESC LIMIT 1")
+        .fetch_one(&pool)
+        .await
+        .map_err(|_| warp::reject::not_found())?;
 
     Ok(warp::reply::json(&row))
 }
