@@ -3,10 +3,10 @@ name: Test
 on:
     push:
         branches-ignore:
-            - master
+            - main
     pull_request:
         branches-ignore:
-            - master
+            - main
 
 env:
     DATABASE_URL: 'postgres://postgres:postgres@localhost:5432/postgres'
