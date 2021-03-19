@@ -36,15 +36,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let champion = warp::path!("lol" / "champions" / u16).and_then(get_champion);
 
-    // OLD
-    let champions_old = warp::path!("wiki" / "champions").and(warp::fs::file("./champions.json"));
-    let champion_old = warp::path!("wiki" / "champions" / u16).and_then(get_champion);
-    // OLD END
-
     let v1 = warp::path!("v1" / ..).and(
-        champions_old
-            .or(champion_old)
-            .or(champions)
+        champions
             .or(champion)
             .or(rotations)
             .or(rotation)
