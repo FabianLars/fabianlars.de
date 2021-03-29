@@ -2,6 +2,7 @@
 authors = ["FabianLars"]
 edition = "2018"
 name = "backend"
+resolver = "2"
 version = "0.1.0"
 
 [profile.release]
