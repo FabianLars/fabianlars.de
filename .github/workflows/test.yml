@@ -8,49 +8,22 @@ on:
         branches-ignore:
             - main
 
-env:
-    DATABASE_URL: 'postgres://postgres:postgres@localhost:5432/postgres'
-    PGPASSWORD: postgres
-
 jobs:
-    backend:
+    yarn-test:
         runs-on: ubuntu-latest
-
-        services:
-            postgres:
-                image: postgres:latest
-                env:
-                    POSTGRES_DB: postgres
-                    POSTGRES_PASSWORD: postgres
-                    POSTGRES_USER: postgres
-                ports:
-                    - 5432:5432
-                options: >-
-                    --health-cmd pg_isready
-                    --health-interval 10s
-                    --health-timeout 5s
-                    --health-retries 5
 
         steps:
             - uses: actions/checkout@v2
 
-            - uses: hecrj/setup-rust-action@v1
+            - name: Setup Node
+              uses: actions/setup-node@v1
               with:
-                  rust-version: nightly
+                  node-version: '14'
 
-            - uses: actions/cache@v2
-              with:
-                  path: |
-                      ~/.cargo/registry
-                      ~/.cargo/git
-                      target
-                  key: test-cache-${{ hashFiles('**/Cargo.lock') }}
+            - name: Install yarn
+              run: npm install -g yarn
 
-            - name: Set up rotations table
-              run: psql -U postgres -h 127.0.0.1 -d postgres -f backend/sql/rotations.sql
-
-            - name: Run tests
+            - name: Install and Build
               run: |
-                  cd backend
-                  cargo test --verbose --all
-                  cargo test --verbose --all --all-features
+                  yarn
+                  yarn test
