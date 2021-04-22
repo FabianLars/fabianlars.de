@@ -12,16 +12,16 @@
         "next": "10.1.3",
         "react": "17.0.2",
         "react-dom": "17.0.2",
-        "sass": "^1.32.8"
+        "sass": "^1.32.11"
     },
     "resolutions": {
         "webpack": "^5"
     },
     "devDependencies": {
-        "@testing-library/dom": "^7.30.3",
+        "@testing-library/dom": "^7.30.4",
         "@testing-library/jest-dom": "^5.12.0",
         "@testing-library/react": "^11.2.6",
-        "@types/node": "^14.14.39",
+        "@types/node": "^14.14.41",
         "@types/react": "^17.0.3",
         "@types/react-dom": "^17.0.3",
         "babel-jest": "^26.6.3",
