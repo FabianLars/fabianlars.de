@@ -16,13 +16,22 @@ jobs:
               with:
                   node-version: '14'
 
-            - name: Install yarn
-              run: npm install -g yarn
+            - name: Cache pnpm modules
+              uses: actions/cache@v2
+              env:
+                  cache-name: cache-pnnpm-modules
+              with:
+                  path: ~/.pnpm-store
+                  key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+                  restore-keys: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-
 
-            - name: Install and Build
-              run: |
-                  yarn
-                  yarn run build
+            - uses: pnpm/action-setup@v2
+              with:
+                  version: 6.x.x
+                  run_install: true
+
+            - name: Build
+              run: pnpm build
 
             - name: Publish
               uses: easingthemes/ssh-deploy@main
