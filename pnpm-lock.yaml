@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@testing-library/dom': 8.3.0
+  '@testing-library/dom': 8.5.0
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.0.0
   '@types/node': 16.7.2
@@ -24,7 +24,7 @@ dependencies:
   sass: 1.39.2
 
 devDependencies:
-  '@testing-library/dom': 8.3.0
+  '@testing-library/dom': 8.5.0
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
   '@types/node': 16.7.2
@@ -866,8 +866,8 @@ packages:
       pretty-format: 27.1.0
     dev: true
 
-  /@testing-library/dom/8.3.0:
-    resolution: {integrity: sha512-4Eu+ExT7UhesxcRjumD7kAXv/8xhl5j2wgp2FROReXDg+Y+ArzPpU+GEN0+0m0SYlOu9hBtvNuBrzTKqyEB1Sw==}
+  /@testing-library/dom/8.5.0:
+    resolution: {integrity: sha512-O0fmHFaPlqaYCpa/cBL0cvroMridb9vZsMLacgIqrlxj+fd+bGF8UfAgwsLCHRF84KLBafWlm9CuOvxeNTlodw==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.14.5
@@ -877,7 +877,7 @@ packages:
       chalk: 4.1.2
       dom-accessibility-api: 0.5.7
       lz-string: 1.4.4
-      pretty-format: 27.1.0
+      pretty-format: 27.1.1
     dev: true
 
   /@testing-library/jest-dom/5.14.1:
