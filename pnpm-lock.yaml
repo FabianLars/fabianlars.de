@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@testing-library/dom': 8.5.0
   '@testing-library/jest-dom': 5.14.1
-  '@testing-library/react': 12.0.0
+  '@testing-library/react': 12.1.0
   '@types/node': 16.7.2
   '@types/react': 17.0.20
   '@types/react-dom': 17.0.9
@@ -26,7 +26,7 @@ dependencies:
 devDependencies:
   '@testing-library/dom': 8.5.0
   '@testing-library/jest-dom': 5.14.1
-  '@testing-library/react': 12.0.0_react-dom@17.0.2+react@17.0.2
+  '@testing-library/react': 12.1.0_react-dom@17.0.2+react@17.0.2
   '@types/node': 16.7.2
   '@types/react': 17.0.20
   '@types/react-dom': 17.0.9
@@ -852,20 +852,6 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@testing-library/dom/8.2.0:
-    resolution: {integrity: sha512-U8cTWENQPHO3QHvxBdfltJ+wC78ytMdg69ASvIdkGdQ/XRg4M9H2vvM3mHddxl+w/fM6NNqzGMwpQoh82v9VIA==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@babel/code-frame': 7.14.5
-      '@babel/runtime': 7.15.4
-      '@types/aria-query': 4.2.2
-      aria-query: 4.2.2
-      chalk: 4.1.2
-      dom-accessibility-api: 0.5.7
-      lz-string: 1.4.4
-      pretty-format: 27.1.0
-    dev: true
-
   /@testing-library/dom/8.5.0:
     resolution: {integrity: sha512-O0fmHFaPlqaYCpa/cBL0cvroMridb9vZsMLacgIqrlxj+fd+bGF8UfAgwsLCHRF84KLBafWlm9CuOvxeNTlodw==}
     engines: {node: '>=12'}
@@ -895,15 +881,15 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/12.0.0_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-sh3jhFgEshFyJ/0IxGltRhwZv2kFKfJ3fN1vTZ6hhMXzz9ZbbcTgmDYM4e+zJv+oiVKKEWZPyqPAh4MQBI65gA==}
+  /@testing-library/react/12.1.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-Ge3Ht3qXE82Yv9lyPpQ7ZWgzo/HgOcHu569Y4ZGWcZME38iOFiOg87qnu6hTEa8jTJVL7zYovnvD3GE2nsNIoQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
       '@babel/runtime': 7.15.4
-      '@testing-library/dom': 8.2.0
+      '@testing-library/dom': 8.5.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
