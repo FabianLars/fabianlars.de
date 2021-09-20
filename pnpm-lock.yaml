@@ -5,7 +5,7 @@ specifiers:
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.1.0
   '@types/node': 16.7.2
-  '@types/react': 17.0.21
+  '@types/react': 17.0.22
   '@types/react-dom': 17.0.9
   babel-jest: 27.2.0
   identity-obj-proxy: 3.0.0
@@ -28,7 +28,7 @@ devDependencies:
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.1.0_react-dom@17.0.2+react@17.0.2
   '@types/node': 16.7.2
-  '@types/react': 17.0.21
+  '@types/react': 17.0.22
   '@types/react-dom': 17.0.9
   babel-jest: 27.2.0
   identity-obj-proxy: 3.0.0
@@ -986,8 +986,8 @@ packages:
       csstype: 3.0.8
     dev: true
 
-  /@types/react/17.0.21:
-    resolution: {integrity: sha512-GzzXCpOthOjXvrAUFQwU/svyxu658cwu00Q9ugujS4qc1zXgLFaO0kS2SLOaMWLt2Jik781yuHCWB7UcYdGAeQ==}
+  /@types/react/17.0.22:
+    resolution: {integrity: sha512-kq/BMeaAVLJM6Pynh8C2rnr/drCK+/5ksH0ch9asz+8FW3DscYCIEFtCeYTFeIx/ubvOsMXmRfy7qEJ76gM96A==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
