@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@testing-library/dom': 8.6.0
   '@testing-library/jest-dom': 5.14.1
-  '@testing-library/react': 12.1.0
+  '@testing-library/react': 12.1.1
   '@types/node': 16.7.2
   '@types/react': 17.0.24
   '@types/react-dom': 17.0.9
@@ -26,7 +26,7 @@ dependencies:
 devDependencies:
   '@testing-library/dom': 8.6.0
   '@testing-library/jest-dom': 5.14.1
-  '@testing-library/react': 12.1.0_react-dom@17.0.2+react@17.0.2
+  '@testing-library/react': 12.1.1_react-dom@17.0.2+react@17.0.2
   '@types/node': 16.7.2
   '@types/react': 17.0.24
   '@types/react-dom': 17.0.9
@@ -852,20 +852,6 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@testing-library/dom/8.5.0:
-    resolution: {integrity: sha512-O0fmHFaPlqaYCpa/cBL0cvroMridb9vZsMLacgIqrlxj+fd+bGF8UfAgwsLCHRF84KLBafWlm9CuOvxeNTlodw==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@babel/code-frame': 7.14.5
-      '@babel/runtime': 7.15.4
-      '@types/aria-query': 4.2.2
-      aria-query: 4.2.2
-      chalk: 4.1.2
-      dom-accessibility-api: 0.5.7
-      lz-string: 1.4.4
-      pretty-format: 27.1.1
-    dev: true
-
   /@testing-library/dom/8.6.0:
     resolution: {integrity: sha512-EDBMEWK8IVpNF7B7C1knb0lLB4Si9RWte/YTEi6CqmqUK5CYCoecwOOG9pEijU/H6s3u0drUxH5sKT07FCgFIg==}
     engines: {node: '>=12'}
@@ -895,15 +881,15 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react/12.1.0_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-Ge3Ht3qXE82Yv9lyPpQ7ZWgzo/HgOcHu569Y4ZGWcZME38iOFiOg87qnu6hTEa8jTJVL7zYovnvD3GE2nsNIoQ==}
+  /@testing-library/react/12.1.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-JDyWbvMuedEpP6SPL4Cvbhk59TVxQ3pwuR6ZfJHdRsHuxDd/ziSMA3nVM3fViaSbsQhuQFE/mvFrPrvQbL5kRQ==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '*'
       react-dom: '*'
     dependencies:
       '@babel/runtime': 7.15.4
-      '@testing-library/dom': 8.5.0
+      '@testing-library/dom': 8.6.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
@@ -3622,16 +3608,6 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.1.0
-      ansi-regex: 5.0.0
-      ansi-styles: 5.2.0
-      react-is: 17.0.2
-    dev: true
-
-  /pretty-format/27.1.1:
-    resolution: {integrity: sha512-zdBi/xlstKJL42UH7goQti5Hip/B415w1Mfj+WWWYMBylAYtKESnXGUtVVcMVid9ReVjypCotUV6CEevYPHv2g==}
-    engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
-    dependencies:
-      '@jest/types': 27.1.1
       ansi-regex: 5.0.0
       ansi-styles: 5.2.0
       react-is: 17.0.2
