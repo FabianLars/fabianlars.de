@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@testing-library/dom': 8.7.2
+  '@testing-library/dom': 8.9.0
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.1.2
   '@types/node': 16.7.2
@@ -24,7 +24,7 @@ dependencies:
   sass: 1.42.1
 
 devDependencies:
-  '@testing-library/dom': 8.7.2
+  '@testing-library/dom': 8.9.0
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
   '@types/node': 16.7.2
@@ -843,6 +843,20 @@ packages:
 
   /@testing-library/dom/8.7.2:
     resolution: {integrity: sha512-2zN0Zv9dMnaMAd4c/1E1ZChu4QrICyvWtkUvHFQBPhS1oG3VYGcM7SLGLYdda7187ILRXzIUOvOsbXQm4EASjA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@babel/code-frame': 7.15.8
+      '@babel/runtime': 7.15.4
+      '@types/aria-query': 4.2.2
+      aria-query: 4.2.2
+      chalk: 4.1.2
+      dom-accessibility-api: 0.5.8
+      lz-string: 1.4.4
+      pretty-format: 27.2.5
+    dev: true
+
+  /@testing-library/dom/8.9.0:
+    resolution: {integrity: sha512-fhmAYtGpFqzKdPq5aLNn/T396qfhYkttHT/5RytdDNSCzg9K/0F/WXF5iDsNBK1M3ZIQbPy7Y0qm4Kup5bqT/w==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.15.8
