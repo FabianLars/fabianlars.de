@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@testing-library/dom': 8.9.1
+  '@testing-library/dom': 8.10.1
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.1.2
   '@types/node': 16.7.2
@@ -24,7 +24,7 @@ dependencies:
   sass: 1.43.2
 
 devDependencies:
-  '@testing-library/dom': 8.9.1
+  '@testing-library/dom': 8.10.1
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
   '@types/node': 16.7.2
@@ -841,30 +841,16 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@testing-library/dom/8.7.2:
-    resolution: {integrity: sha512-2zN0Zv9dMnaMAd4c/1E1ZChu4QrICyvWtkUvHFQBPhS1oG3VYGcM7SLGLYdda7187ILRXzIUOvOsbXQm4EASjA==}
+  /@testing-library/dom/8.10.1:
+    resolution: {integrity: sha512-rab7vpf1uGig5efWwsCOn9j4/doy+W3VBoUyzX7C4y77u0wAckwc7R8nyH6e2rw0rRzKJR+gWPiAg8zhiFbxWQ==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.15.8
       '@babel/runtime': 7.15.4
       '@types/aria-query': 4.2.2
-      aria-query: 4.2.2
+      aria-query: 5.0.0
       chalk: 4.1.2
-      dom-accessibility-api: 0.5.8
-      lz-string: 1.4.4
-      pretty-format: 27.2.5
-    dev: true
-
-  /@testing-library/dom/8.9.1:
-    resolution: {integrity: sha512-jXM+FKo5BZA/2WtcsoTGuDs810J3ewQ2yq59Gxd2heux5jr8lo2DnTAl3JWVwAlg2/DcWSYqKY5pi9v0g8hvhw==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@babel/code-frame': 7.15.8
-      '@babel/runtime': 7.15.4
-      '@types/aria-query': 4.2.2
-      aria-query: 4.2.2
-      chalk: 4.1.2
-      dom-accessibility-api: 0.5.8
+      dom-accessibility-api: 0.5.9
       lz-string: 1.4.4
       pretty-format: 27.2.5
     dev: true
@@ -892,7 +878,7 @@ packages:
       react-dom: '*'
     dependencies:
       '@babel/runtime': 7.15.4
-      '@testing-library/dom': 8.7.2
+      '@testing-library/dom': 8.10.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: true
@@ -1109,6 +1095,11 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@babel/runtime-corejs3': 7.15.4
+    dev: true
+
+  /aria-query/5.0.0:
+    resolution: {integrity: sha512-V+SM7AbUwJ+EBnB8+DXs0hPZHO0W6pqBcc0dW90OwtVG02PswOu/teuARoLQjdDOH+t9pJgGnW5/Qmouf3gPJg==}
+    engines: {node: '>=6.0'}
     dev: true
 
   /asn1.js/5.4.1:
@@ -1834,6 +1825,10 @@ packages:
 
   /dom-accessibility-api/0.5.8:
     resolution: {integrity: sha512-rAfghuBPeJldxqsmZQtBbna4TqMgFe4xhYs24vPULNslbmXUdcga+CXiKWzZxyWw0FCkGKPgmizIysIvsAEN8w==}
+    dev: true
+
+  /dom-accessibility-api/0.5.9:
+    resolution: {integrity: sha512-+KPF4o71fl6NrdnqIrJc6m44NA+Rhf1h7In2MRznejSQasWkjqmHOBUlk+pXJ77cVOSYyZeNHFwn/sjotB6+Sw==}
     dev: true
 
   /domain-browser/1.2.0:
