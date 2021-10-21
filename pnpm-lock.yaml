@@ -14,14 +14,14 @@ specifiers:
   react: 17.0.2
   react-dom: 17.0.2
   react-test-renderer: 17.0.2
-  sass: 1.43.2
+  sass: 1.43.3
   typescript: 4.4.4
 
 dependencies:
-  next: 11.1.2_575f922dec7855d191507648ff4e0d52
+  next: 11.1.2_c8e87fc74ad44a51d7576245c4451cc5
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  sass: 1.43.2
+  sass: 1.43.3
 
 devDependencies:
   '@testing-library/dom': 8.10.1
@@ -3272,7 +3272,7 @@ packages:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
     dev: true
 
-  /next/11.1.2_575f922dec7855d191507648ff4e0d52:
+  /next/11.1.2_c8e87fc74ad44a51d7576245c4451cc5:
     resolution: {integrity: sha512-azEYL0L+wFjv8lstLru3bgvrzPvK0P7/bz6B/4EJ9sYkXeW8r5Bjh78D/Ol7VOg0EIPz0CXoe72hzAlSAXo9hw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -3332,7 +3332,7 @@ packages:
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
       react-refresh: 0.8.3
-      sass: 1.43.2
+      sass: 1.43.3
       stream-browserify: 3.0.0
       stream-http: 3.1.1
       string_decoder: 1.3.0
@@ -3874,8 +3874,8 @@ packages:
   /safer-buffer/2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  /sass/1.43.2:
-    resolution: {integrity: sha512-DncYhjl3wBaPMMJR0kIUaH3sF536rVrOcqqVGmTZHQRRzj7LQlyGV7Mb8aCKFyILMr5VsPHwRYtyKpnKYlmQSQ==}
+  /sass/1.43.3:
+    resolution: {integrity: sha512-BJnLngqWpMeS65UvlYYEuCb3/fLxDxhHtOB/gWPxs6NKrslTxGt3ZxwIvOe/0Jm4tWwM/+tIpE3wj4dLEhPDeQ==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
