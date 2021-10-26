@@ -8,7 +8,7 @@ on:
   pull_request:
 
 jobs:
-  yarn-test:
+  test-build:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,5 +36,5 @@ jobs:
       - name: Type check
         run: pnpm type-check
 
-      - name: Run tests
-        run: pnpm test
+      - name: Build project
+        run: pnpm build
