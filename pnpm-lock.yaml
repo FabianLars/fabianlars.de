@@ -7,11 +7,11 @@ specifiers:
   next: 12.0.4
   react: 17.0.2
   react-dom: 17.0.2
-  sass: 1.43.5
+  sass: 1.44.0
   typescript: 4.5.2
 
 dependencies:
-  next: 12.0.4_dfacd8ba41540a3950547fefe259848d
+  next: 12.0.4_26cee3e4b82436ed28df882481d4fc62
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
 
@@ -19,7 +19,7 @@ devDependencies:
   '@types/node': 16.11.11
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
-  sass: 1.43.5
+  sass: 1.44.0
   typescript: 4.5.2
 
 packages:
@@ -933,6 +933,10 @@ packages:
       queue: 6.0.2
     dev: false
 
+  /immutable/4.0.0:
+    resolution: {integrity: sha512-zIE9hX70qew5qTUjSS7wi1iwj/l7+m54KWU247nhM3v806UdGj1yDndXj+IOYxxtW9zyLI+xqFNZjTuDaLUqFw==}
+    dev: true
+
   /inherits/2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: false
@@ -1166,7 +1170,7 @@ packages:
     hasBin: true
     dev: false
 
-  /next/12.0.4_dfacd8ba41540a3950547fefe259848d:
+  /next/12.0.4_26cee3e4b82436ed28df882481d4fc62:
     resolution: {integrity: sha512-1pvjcSZBm5OLoGmDhp4JwKwIE798WbqUNLuyU7w6a2jUkdWaxOYtkE/ROXQTi2pXHj7+6rm68AvhxROLX2NHQg==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -1225,7 +1229,7 @@ packages:
       react-is: 17.0.2
       react-refresh: 0.8.3
       regenerator-runtime: 0.13.4
-      sass: 1.43.5
+      sass: 1.44.0
       stream-browserify: 3.0.0
       stream-http: 3.1.1
       string_decoder: 1.3.0
@@ -1521,12 +1525,13 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: false
 
-  /sass/1.43.5:
-    resolution: {integrity: sha512-WuNm+eAryMgQluL7Mbq9M4EruyGGMyal7Lu58FfnRMVWxgUzIvI7aSn60iNt3kn5yZBMR7G84fAGDcwqOF5JOg==}
+  /sass/1.44.0:
+    resolution: {integrity: sha512-0hLREbHFXGQqls/K8X+koeP+ogFRPF4ZqetVB19b7Cst9Er8cOR0rc6RU7MaI4W1JmUShd1BPgPoeqmmgMMYFw==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.2
+      immutable: 4.0.0
     dev: true
 
   /scheduler/0.20.2:
