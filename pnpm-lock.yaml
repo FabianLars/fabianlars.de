@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@types/node': 16.11.11
+  '@types/node': 16.11.12
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
   next: 12.0.7
@@ -16,7 +16,7 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
 
 devDependencies:
-  '@types/node': 16.11.11
+  '@types/node': 16.11.12
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
   sass: 1.44.0
@@ -238,8 +238,8 @@ packages:
     dev: false
     optional: true
 
-  /@types/node/16.11.11:
-    resolution: {integrity: sha512-KB0sixD67CeecHC33MYn+eYARkqTheIRNuu97y2XMjR7Wu3XibO1vaY6VBV6O/a89SPI81cEUIYT87UqUWlZNw==}
+  /@types/node/16.11.12:
+    resolution: {integrity: sha512-+2Iggwg7PxoO5Kyhvsq9VarmPbIelXP070HMImEpbtGCoyWNINQj4wzjbQCXzdHTRXnqufutJb5KAURZANNBAw==}
 
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
@@ -1078,7 +1078,7 @@ packages:
     resolution: {integrity: sha512-mk0umAQ5lT+CaOJ+Qp01N6kz48sJG2kr2n1rX0koqKf6FIygQV0qLOdN9SCYID4IVeSigDOcPeGLozdMLYfb5g==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      '@types/node': 16.11.11
+      '@types/node': 16.11.12
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: false
