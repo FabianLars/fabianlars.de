@@ -8,7 +8,7 @@ specifiers:
   react: 17.0.2
   react-dom: 17.0.2
   sass: 1.44.0
-  typescript: 4.5.2
+  typescript: 4.5.3
 
 dependencies:
   next: 12.0.7_26cee3e4b82436ed28df882481d4fc62
@@ -20,7 +20,7 @@ devDependencies:
   '@types/react': 17.0.37
   '@types/react-dom': 17.0.11
   sass: 1.44.0
-  typescript: 4.5.2
+  typescript: 4.5.3
 
 packages:
 
@@ -1748,8 +1748,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /typescript/4.5.2:
-    resolution: {integrity: sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==}
+  /typescript/4.5.3:
+    resolution: {integrity: sha512-eVYaEHALSt+s9LbvgEv4Ef+Tdq7hBiIZgii12xXJnukryt3pMgJf6aKhoCZ3FWQsu6sydEnkg11fYXLzhLBjeQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
