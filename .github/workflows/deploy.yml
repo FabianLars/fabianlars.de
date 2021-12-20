@@ -32,12 +32,11 @@ jobs:
 
       - name: Build
         run: pnpm build
-
-      - name: Publish
-        uses: easingthemes/ssh-deploy@main
+        
+      - name: Update Prod
+        uses: appleboy/ssh-action@master
         with:
-          REMOTE_HOST: ${{ secrets.SERVER_IP }}
-          REMOTE_USER: ${{ secrets.USERNAME }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SOURCE: 'out/'
-          TARGET: '~/wwwhtml'
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: cd ~/wwwhtml && git pull && sudo systemctl daemon-reload && sudo systemctl restart fabianlars.de.service
