@@ -7,12 +7,12 @@ specifiers:
   next: 12.0.8
   react: 17.0.2
   react-dom: 17.0.2
-  sass: 1.48.0
+  sass: 1.49.0
   sharp: 0.29.3
   typescript: 4.5.4
 
 dependencies:
-  next: 12.0.8_e98b80b1bb65423de598a93dfe997db0
+  next: 12.0.8_8ea0df840a4126039579523f29859284
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   sharp: 0.29.3
@@ -21,7 +21,7 @@ devDependencies:
   '@types/node': 16.11.21
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
-  sass: 1.48.0
+  sass: 1.49.0
   typescript: 4.5.4
 
 packages:
@@ -542,7 +542,7 @@ packages:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
     dev: false
 
-  /next/12.0.8_e98b80b1bb65423de598a93dfe997db0:
+  /next/12.0.8_8ea0df840a4126039579523f29859284:
     resolution: {integrity: sha512-g5c1Kuh1F8tSXJn2rVvzYBzqe9EXaR6+rY3/KrQ7y0D9FueRLfHI35wM0DRadDcPSc3+vncspfhYH3jnYE/KjA==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -570,7 +570,7 @@ packages:
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
       react-refresh: 0.8.3
-      sass: 1.48.0
+      sass: 1.49.0
       stream-browserify: 3.0.0
       styled-jsx: 5.0.0-beta.6_react@17.0.2
       use-subscription: 1.5.1_react@17.0.2
@@ -756,8 +756,8 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: false
 
-  /sass/1.48.0:
-    resolution: {integrity: sha512-hQi5g4DcfjcipotoHZ80l7GNJHGqQS5LwMBjVYB/TaT0vcSSpbgM8Ad7cgfsB2M0MinbkEQQPO9+sjjSiwxqmw==}
+  /sass/1.49.0:
+    resolution: {integrity: sha512-TVwVdNDj6p6b4QymJtNtRS2YtLJ/CqZriGg0eIAbAKMlN8Xy6kbv33FsEZSF7FufFFM705SQviHjjThfaQ4VNw==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
