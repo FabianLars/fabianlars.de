@@ -9,7 +9,7 @@ specifiers:
   react-dom: 17.0.2
   sass: 1.49.0
   sharp: 0.29.3
-  typescript: 4.5.4
+  typescript: 4.5.5
 
 dependencies:
   next: 12.0.8_8ea0df840a4126039579523f29859284
@@ -22,7 +22,7 @@ devDependencies:
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
   sass: 1.49.0
-  typescript: 4.5.4
+  typescript: 4.5.5
 
 packages:
 
@@ -959,8 +959,8 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /typescript/4.5.4:
-    resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
