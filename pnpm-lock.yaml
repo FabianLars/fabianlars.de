@@ -8,14 +8,14 @@ specifiers:
   react: 17.0.2
   react-dom: 17.0.2
   sass: 1.49.4
-  sharp: 0.29.3
+  sharp: 0.30.0
   typescript: 4.5.5
 
 dependencies:
   next: 12.0.10_c8b9326ff74e5d84aa8a08ae614cae9e
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  sharp: 0.29.3
+  sharp: 0.30.0
 
 devDependencies:
   '@types/node': 16.11.22
@@ -289,12 +289,6 @@ packages:
 
   /delegates/1.0.0:
     resolution: {integrity: sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=}
-    dev: false
-
-  /detect-libc/1.0.3:
-    resolution: {integrity: sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=}
-    engines: {node: '>=0.10'}
-    hasBin: true
     dev: false
 
   /detect-libc/2.0.0:
@@ -683,13 +677,13 @@ packages:
     resolution: {integrity: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=}
     dev: false
 
-  /sharp/0.29.3:
-    resolution: {integrity: sha512-fKWUuOw77E4nhpyzCCJR1ayrttHoFHBT2U/kR/qEMRhvPEcluG4BKj324+SCO1e84+knXHwhJ1HHJGnUt4ElGA==}
+  /sharp/0.30.0:
+    resolution: {integrity: sha512-L3m/l6yQFr3oGBUzcSAlN/R9yGFPYqM9FpMUe6Z4nHg4sWtP3hW1rcz+aaHklhD4wX5Jqh5PY9z+A1d4Qt3Hfg==}
     engines: {node: '>=12.13.0'}
     requiresBuild: true
     dependencies:
       color: 4.2.0
-      detect-libc: 1.0.3
+      detect-libc: 2.0.0
       node-addon-api: 4.3.0
       prebuild-install: 7.0.1
       semver: 7.3.5
