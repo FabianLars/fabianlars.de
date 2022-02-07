@@ -210,8 +210,8 @@ packages:
       ieee754: 1.2.1
     dev: false
 
-  /caniuse-lite/1.0.30001304:
-    resolution: {integrity: sha512-bdsfZd6K6ap87AGqSHJP/s1V+U6Z5lyrcbBu3ovbCCf8cSYpwTtGrCBObMpJqwxfTbLW6YTIdbb1jEeTelcpYQ==}
+  /caniuse-lite/1.0.30001307:
+    resolution: {integrity: sha512-+MXEMczJ4FuxJAUp0jvAl6Df0NI/OfW1RWEE61eSmzS7hw6lz4IKutbhbXendwq8BljfFuHtu26VWsg4afQ7Ng==}
     dev: false
 
   /chokidar/3.5.3:
@@ -333,7 +333,7 @@ packages:
       console-control-strings: 1.1.0
       has-unicode: 2.0.1
       object-assign: 4.1.1
-      signal-exit: 3.0.6
+      signal-exit: 3.0.7
       string-width: 1.0.2
       strip-ansi: 3.0.1
       wide-align: 1.1.5
@@ -469,7 +469,7 @@ packages:
         optional: true
     dependencies:
       '@next/env': 12.0.10
-      caniuse-lite: 1.0.30001304
+      caniuse-lite: 1.0.30001307
       postcss: 8.4.5
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -493,8 +493,8 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /node-abi/3.5.0:
-    resolution: {integrity: sha512-LtHvNIBgOy5mO8mPEUtkCW/YCRWYEKshIvqhe1GHHyXEHEB5mgICyYnAcl4qan3uFeRROErKGzatFHPf6kDxWw==}
+  /node-abi/3.8.0:
+    resolution: {integrity: sha512-tzua9qWWi7iW4I42vUPKM+SfaF0vQSLAm4yO5J83mSwB7GeoWrDKC/K+8YCnYNwqP5duwazbw2X9l4m8SC2cUw==}
     engines: {node: '>=10'}
     dependencies:
       semver: 7.3.5
@@ -563,7 +563,7 @@ packages:
       minimist: 1.2.5
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.5.0
+      node-abi: 3.8.0
       npmlog: 4.1.2
       pump: 3.0.0
       rc: 1.2.8
@@ -692,8 +692,8 @@ packages:
       tunnel-agent: 0.6.0
     dev: false
 
-  /signal-exit/3.0.6:
-    resolution: {integrity: sha512-sDl4qMFpijcGw22U5w63KmD3cZJfBuFlVNbVMKje2keoKML7X2UzWbc4XrmEbDwg0NXJc3yv4/ox7b+JWb57kQ==}
+  /signal-exit/3.0.7:
+    resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: false
 
   /simple-concat/1.0.1:
