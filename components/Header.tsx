@@ -20,7 +20,7 @@ export default function Header() {
             <div style={{ textAlign: 'center' }}>
                 <Link href="/">
                     <a>
-                        <img src="/icon.png" alt="FabianLars' Logo" width={100} height={100} />
+                        <img src="/img/ilil.webp" alt="FabianLars' Logo" width={100} height={100} style={{ borderRadius: '40px' }} />
                     </a>
                 </Link>
             </div>
