@@ -1,7 +1,7 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': 16.11.32
+  '@types/node': 16.11.33
   '@types/react': 18.0.8
   '@types/react-dom': 18.0.3
   next: 12.1.5
@@ -12,13 +12,13 @@ specifiers:
   typescript: 4.6.4
 
 dependencies:
-  next: 12.1.5_008f76c92927c3d3636842a829086498
+  next: 12.1.5_achxnsjje7b5gy3iikucscdeta
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   sharp: 0.30.4
 
 devDependencies:
-  '@types/node': 16.11.32
+  '@types/node': 16.11.33
   '@types/react': 18.0.8
   '@types/react-dom': 18.0.3
   sass: 1.51.0
@@ -138,8 +138,8 @@ packages:
     dev: false
     optional: true
 
-  /@types/node/16.11.32:
-    resolution: {integrity: sha512-+fnfNvG5JQdC1uGZiTx+0QVtoOHcggy6+epx65JYroPGsE1uhp+vo5kioiGKsAkor6ocwHteU2EvO7N8vtOZtA==}
+  /@types/node/16.11.33:
+    resolution: {integrity: sha512-0PJ0vg+JyU0MIan58IOIFRtSvsb7Ri+7Wltx2qAg94eMOrpg4+uuP3aUHCpxXc1i0jCXiC+zIamSZh3l9AbcQA==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -460,7 +460,7 @@ packages:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
     dev: false
 
-  /next/12.1.5_008f76c92927c3d3636842a829086498:
+  /next/12.1.5_achxnsjje7b5gy3iikucscdeta:
     resolution: {integrity: sha512-YGHDpyfgCfnT5GZObsKepmRnne7Kzp7nGrac07dikhutWQug7hHg85/+sPJ4ZW5Q2pDkb+n0FnmLkmd44htIJQ==}
     engines: {node: '>=12.22.0'}
     hasBin: true
