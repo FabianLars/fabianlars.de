@@ -8,14 +8,14 @@ specifiers:
   react: 18.1.0
   react-dom: 18.1.0
   sass: 1.52.1
-  sharp: 0.30.4
+  sharp: 0.30.5
   typescript: 4.6.4
 
 dependencies:
   next: 12.1.6_r4x3shsibbhjfvhxzsevzwdixm
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
-  sharp: 0.30.4
+  sharp: 0.30.5
 
 devDependencies:
   '@types/node': 16.11.36
@@ -498,8 +498,8 @@ packages:
       semver: 7.3.7
     dev: false
 
-  /node-addon-api/4.3.0:
-    resolution: {integrity: sha512-73sE9+3UaLYYFmDsFZnqCInzPyh3MqIwZO9cw58yIqAZhONrrabrYyYe3TuIqtIiOuTXVhsGau8hcrhhwSsDIQ==}
+  /node-addon-api/5.0.0:
+    resolution: {integrity: sha512-CvkDw2OEnme7ybCykJpVcKH+uAOLV2qLqiyla128dN9TkEWfrYmxG6C2boDe5KcNQqZF3orkqzGgOMvZ/JNekA==}
     dev: false
 
   /normalize-path/3.0.0:
@@ -668,14 +668,14 @@ packages:
     resolution: {integrity: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=}
     dev: false
 
-  /sharp/0.30.4:
-    resolution: {integrity: sha512-3Onig53Y6lji4NIZo69s14mERXXY/GV++6CzOYx/Rd8bnTwbhFbL09WZd7Ag/CCnA0WxFID8tkY0QReyfL6v0Q==}
+  /sharp/0.30.5:
+    resolution: {integrity: sha512-0T28KxqY4DzUMLSAp1/IhGVeHpPIQyp1xt7esmuXCAfyi/+6tYMUeRhQok+E/+E52Yk5yFjacXp90cQOkmkl4w==}
     engines: {node: '>=12.13.0'}
     requiresBuild: true
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.1
-      node-addon-api: 4.3.0
+      node-addon-api: 5.0.0
       prebuild-install: 7.1.0
       semver: 7.3.7
       simple-get: 4.0.1
