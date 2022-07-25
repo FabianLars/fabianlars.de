@@ -215,8 +215,8 @@ packages:
       ieee754: 1.2.1
     dev: false
 
-  /caniuse-lite/1.0.30001367:
-    resolution: {integrity: sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==}
+  /caniuse-lite/1.0.30001370:
+    resolution: {integrity: sha512-3PDmaP56wz/qz7G508xzjx8C+MC2qEm4SYhSEzC9IBROo+dGXFWRuaXkWti0A9tuI00g+toiriVqxtWMgl350g==}
     dev: false
 
   /chokidar/3.5.3:
@@ -422,7 +422,7 @@ packages:
     dependencies:
       '@next/env': 12.2.3
       '@swc/helpers': 0.4.3
-      caniuse-lite: 1.0.30001367
+      caniuse-lite: 1.0.30001370
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
