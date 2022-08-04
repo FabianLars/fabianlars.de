@@ -7,12 +7,12 @@ specifiers:
   next: 12.2.4
   react: 18.2.0
   react-dom: 18.2.0
-  sass: 1.54.2
+  sass: 1.54.3
   sharp: 0.30.7
   typescript: 4.7.4
 
 dependencies:
-  next: 12.2.4_etbiomfljwut5w7dhcn4uu7ezq
+  next: 12.2.4_qn5eqpoej7on3nhyoj73scbypy
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sharp: 0.30.7
@@ -21,7 +21,7 @@ devDependencies:
   '@types/node': 16.11.47
   '@types/react': 18.0.15
   '@types/react-dom': 18.0.6
-  sass: 1.54.2
+  sass: 1.54.3
   typescript: 4.7.4
 
 packages:
@@ -402,7 +402,7 @@ packages:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
     dev: false
 
-  /next/12.2.4_etbiomfljwut5w7dhcn4uu7ezq:
+  /next/12.2.4_qn5eqpoej7on3nhyoj73scbypy:
     resolution: {integrity: sha512-b1xlxEozmAWokAXzXsi5vlmU/IfJcFNIJA8dpU5UdkFbyDPio8wwb8mAQ/Y7rGtfTgG/t/u49BiyEA+xAgFvow==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -426,7 +426,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      sass: 1.54.2
+      sass: 1.54.3
       styled-jsx: 5.0.2_react@18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
     optionalDependencies:
@@ -558,8 +558,8 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: false
 
-  /sass/1.54.2:
-    resolution: {integrity: sha512-wbVV26sejsCIbBScZZtNkvnrB/bVCQ8hSlZ01D9nzsVh9zLqCkWrlpvTb3YEb6xsuNi9cx75hncqwikHFSz7tw==}
+  /sass/1.54.3:
+    resolution: {integrity: sha512-fLodey5Qd41Pxp/Tk7Al97sViYwF/TazRc5t6E65O7JOk4XF8pzwIW7CvCxYVOfJFFI/1x5+elDyBIixrp+zrw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
