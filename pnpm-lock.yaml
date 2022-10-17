@@ -215,8 +215,8 @@ packages:
       ieee754: 1.2.1
     dev: false
 
-  /caniuse-lite/1.0.30001418:
-    resolution: {integrity: sha512-oIs7+JL3K9JRQ3jPZjlH6qyYDp+nBTCais7hjh0s+fuBwufc7uZ7hPYMXrDOJhV360KGMTcczMRObk0/iMqZRg==}
+  /caniuse-lite/1.0.30001420:
+    resolution: {integrity: sha512-OnyeJ9ascFA9roEj72ok2Ikp7PHJTKubtEJIQ/VK3fdsS50q4KWy+Z5X0A1/GswEItKX0ctAp8n4SYDE7wTu6A==}
     dev: false
 
   /chokidar/3.5.3:
@@ -384,8 +384,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /minimist/1.2.6:
-    resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
+  /minimist/1.2.7:
+    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
     dev: false
 
   /mkdirp-classic/0.5.3:
@@ -422,7 +422,7 @@ packages:
     dependencies:
       '@next/env': 12.3.1
       '@swc/helpers': 0.4.11
-      caniuse-lite: 1.0.30001418
+      caniuse-lite: 1.0.30001420
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -494,7 +494,7 @@ packages:
       detect-libc: 2.0.1
       expand-template: 2.0.3
       github-from-package: 0.0.0
-      minimist: 1.2.6
+      minimist: 1.2.7
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
       node-abi: 3.26.0
@@ -518,7 +518,7 @@ packages:
     dependencies:
       deep-extend: 0.6.0
       ini: 1.3.8
-      minimist: 1.2.6
+      minimist: 1.2.7
       strip-json-comments: 2.0.1
     dev: false
 
