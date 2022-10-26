@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': 16.18.0
+  '@types/node': 18.11.5
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   next: 13.0.0
@@ -18,7 +18,7 @@ dependencies:
   sharp: 0.31.1
 
 devDependencies:
-  '@types/node': 16.18.0
+  '@types/node': 18.11.5
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   sass: 1.55.0
@@ -153,8 +153,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /@types/node/16.18.0:
-    resolution: {integrity: sha512-LqYqYzYvnbCaQfLAwRt0zboqnsViwhZm+vjaMSqcfN36vulAg7Pt0T83q4WZO2YOBw3XdyHi8cQ88H22zmULOA==}
+  /@types/node/18.11.5:
+    resolution: {integrity: sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==}
     dev: true
 
   /@types/prop-types/15.7.5:
