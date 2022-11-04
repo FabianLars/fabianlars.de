@@ -8,14 +8,14 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   sass: 1.56.0
-  sharp: 0.31.1
+  sharp: 0.31.2
   typescript: 4.8.4
 
 dependencies:
   next: 13.0.2_orpxj3vgaelozwpc7iiuainqz4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  sharp: 0.31.1
+  sharp: 0.31.2
 
 devDependencies:
   '@types/node': 18.11.9
@@ -585,8 +585,8 @@ packages:
       lru-cache: 6.0.0
     dev: false
 
-  /sharp/0.31.1:
-    resolution: {integrity: sha512-GR8M1wBwOiFKLkm9JPun27OQnNRZdHfSf9VwcdZX6UrRmM1/XnOrLFTF0GAil+y/YK4E6qcM/ugxs80QirsHxg==}
+  /sharp/0.31.2:
+    resolution: {integrity: sha512-DUdNVEXgS5A97cTagSLIIp8dUZ/lZtk78iNVZgHdHbx1qnQR7JAHY0BnXnwwH39Iw+VKhO08CTYhIg0p98vQ5Q==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
