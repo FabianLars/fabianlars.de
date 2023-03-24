@@ -7,12 +7,12 @@ specifiers:
   next: 13.2.4
   react: 18.2.0
   react-dom: 18.2.0
-  sass: 1.59.3
+  sass: 1.60.0
   sharp: 0.31.3
   typescript: 5.0.2
 
 dependencies:
-  next: 13.2.4_dpxg4zawgzznnxdt7it3f5d76m
+  next: 13.2.4_5y7qh6ykubtj2qr2evk3di7hpa
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sharp: 0.31.3
@@ -21,7 +21,7 @@ devDependencies:
   '@types/node': 18.15.6
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
-  sass: 1.59.3
+  sass: 1.60.0
   typescript: 5.0.2
 
 packages:
@@ -406,7 +406,7 @@ packages:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
     dev: false
 
-  /next/13.2.4_dpxg4zawgzznnxdt7it3f5d76m:
+  /next/13.2.4_5y7qh6ykubtj2qr2evk3di7hpa:
     resolution: {integrity: sha512-g1I30317cThkEpvzfXujf0O4wtaQHtDCLhlivwlTJ885Ld+eOgcz7r3TGQzeU+cSRoNHtD8tsJgzxVdYojFssw==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -433,7 +433,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      sass: 1.59.3
+      sass: 1.60.0
       styled-jsx: 5.1.1_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 13.2.4
@@ -564,8 +564,8 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: false
 
-  /sass/1.59.3:
-    resolution: {integrity: sha512-QCq98N3hX1jfTCoUAsF3eyGuXLsY7BCnCEg9qAact94Yc21npG2/mVOqoDvE0fCbWDqiM4WlcJQla0gWG2YlxQ==}
+  /sass/1.60.0:
+    resolution: {integrity: sha512-updbwW6fNb5gGm8qMXzVO7V4sWf7LMXnMly/JEyfbfERbVH46Fn6q02BX7/eHTdKpE7d+oTkMMQpFWNUMfFbgQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
