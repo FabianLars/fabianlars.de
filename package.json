@@ -1,5 +1,6 @@
 {
-  "name": "flde",
+  "private": true,
+  "name": "fabianlars.de",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
