@@ -1,48 +1,21 @@
-target
-Cargo.lock
-champions.json
-history.json
+# build output
+dist/
 
-package-lock.json
+# generated types
+.astro/
 
-# generated with create-next-app:
 # dependencies
-node_modules
-.pnp
-.pnp.js
+node_modules/
 
-# testing
-coverage
-
-# next.js
-.next
-out
-
-# production
-build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# environment variables
+.env
+.env.production
 
-# vercel
-.vercel
-
-# yarn
-frontend/.yarn/*
-!frontend/.yarn/cache
-!frontend/.yarn/releases
-!frontend/.yarn/plugins
-!frontend/.yarn/sdks
-!frontend/.yarn/versions
+# macOS-specific files
+.DS_Store
