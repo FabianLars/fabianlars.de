@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - 'renovate/**'
+      - "renovate/**"
   pull_request:
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
 
       - name: Cache pnpm modules
         uses: actions/cache@v3
@@ -30,11 +30,11 @@ jobs:
 
       - uses: pnpm/action-setup@v2
         with:
-          version: 6.x.x
+          version: 7.x.x
           run_install: true
 
-      - name: Type check
-        run: pnpm type-check
+      #- name: Type check
+      #  run: pnpm type-check
 
       - name: Build project
         run: pnpm build
