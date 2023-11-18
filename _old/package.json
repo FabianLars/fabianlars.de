@@ -16,7 +16,7 @@
         "sharp": "0.32.6"
     },
     "devDependencies": {
-        "@types/node": "20.9.1",
+        "@types/node": "20.9.2",
         "@types/react": "18.2.37",
         "@types/react-dom": "18.2.15",
         "sass": "1.69.5",
