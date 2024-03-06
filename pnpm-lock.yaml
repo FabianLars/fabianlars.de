@@ -7,7 +7,7 @@ settings:
 dependencies:
   astro:
     specifier: ^4.0.0
-    version: 4.4.11(sass@1.71.1)
+    version: 4.4.12(sass@1.71.1)
   sass:
     specifier: ^1.63.3
     version: 1.71.1
@@ -22,8 +22,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: false
 
-  /@astrojs/compiler@2.6.0:
-    resolution: {integrity: sha512-c74k8iGHL3DzkosSJ0tGcHIEBEiIfBhr7eadSaPyvWlVKaieDVzVs8OW1tnRSQyBsfMc8DZQ4RcN2KAcESD8UQ==}
+  /@astrojs/compiler@2.7.0:
+    resolution: {integrity: sha512-XpC8MAaWjD1ff6/IfkRq/5k1EFj6zhCNqXRd5J43SVJEBj/Bsmizkm8N0xOYscGcDFQkRgEw6/eKnI5x/1l6aA==}
     dev: false
 
   /@astrojs/internal-helpers@0.2.1:
@@ -801,12 +801,12 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro@4.4.11(sass@1.71.1):
-    resolution: {integrity: sha512-mJ1k67xzAJO1vTTpATe76uSWhOgiEj3Id7narE6X2rMMOBjR8vJM+9Cmv/Wbpot6uMwFo780skUowlMptK96fQ==}
+  /astro@4.4.12(sass@1.71.1):
+    resolution: {integrity: sha512-1mHleqg6M/vU8RtEYlGr2CALYRGkRvQSJOUih/tGi12K4AVE8Dd+9uSDoMCnWH1OP9phe2HmwHEx2gDWlPksGQ==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 2.6.0
+      '@astrojs/compiler': 2.7.0
       '@astrojs/internal-helpers': 0.2.1
       '@astrojs/markdown-remark': 4.2.1
       '@astrojs/telemetry': 3.0.4
@@ -988,8 +988,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001593
-      electron-to-chromium: 1.4.691
+      caniuse-lite: 1.0.30001594
+      electron-to-chromium: 1.4.693
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
     dev: false
@@ -1015,8 +1015,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /caniuse-lite@1.0.30001593:
-    resolution: {integrity: sha512-UWM1zlo3cZfkpBysd7AS+z+v007q9G1+fLTUU42rQnY6t2axoogPW/xol6T7juU5EUoOhML4WgBIdG+9yYqAjQ==}
+  /caniuse-lite@1.0.30001594:
+    resolution: {integrity: sha512-VblSX6nYqyJVs8DKFMldE2IVCJjZ225LW00ydtUWwh5hk9IfkTOffO6r8gJNsH0qqqeAF8KrbMYA2VEwTlGW5g==}
     dev: false
 
   /ccount@2.0.1:
@@ -1259,8 +1259,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.691:
-    resolution: {integrity: sha512-vJ+/LmKja/St8Ofq4JGMFVZuwG7ECU6akjNSn2/g6nv8xbIBOWGlEs+WA8/3XaWkU0Nlyu0iFGgOxC4mpgFjgA==}
+  /electron-to-chromium@1.4.693:
+    resolution: {integrity: sha512-/if4Ueg0GUQlhCrW2ZlXwDAm40ipuKo+OgeHInlL8sbjt+hzISxZK949fZeJaVsheamrzANXvw1zQTvbxTvSHw==}
     dev: false
 
   /emoji-regex@10.3.0:
