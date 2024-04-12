@@ -7,10 +7,10 @@ settings:
 dependencies:
   astro:
     specifier: ^4.0.0
-    version: 4.6.0(sass@1.74.1)
+    version: 4.6.0(sass@1.75.0)
   sass:
     specifier: ^1.63.3
-    version: 1.74.1
+    version: 1.75.0
 
 packages:
 
@@ -1029,7 +1029,7 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro@4.6.0(sass@1.74.1):
+  /astro@4.6.0(sass@1.75.0):
     resolution: {integrity: sha512-zys+COED1Zs/PurkgAFc/f93e2jACMv7XeC+CyDNBgdE9v2b7rlVPRu054j2nTrQTzGQ7kst2/waQrDbs6e1aA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
@@ -1090,7 +1090,7 @@ packages:
       tsconfck: 3.0.3
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.2.8(sass@1.74.1)
+      vite: 5.2.8(sass@1.75.0)
       vitefu: 0.2.5(vite@5.2.8)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
@@ -3051,8 +3051,8 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: false
 
-  /sass@1.74.1:
-    resolution: {integrity: sha512-w0Z9p/rWZWelb88ISOLyvqTWGmtmu2QJICqDBGyNnfG4OUnPX9BBjjYIXUpXCMOOg5MQWNpqzt876la1fsTvUA==}
+  /sass@1.75.0:
+    resolution: {integrity: sha512-ShMYi3WkrDWxExyxSZPst4/okE9ts46xZmJDSawJQrnte7M1V9fScVB+uNXOVKRBt0PggHOwoZcn8mYX4trnBw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3539,7 +3539,7 @@ packages:
       vfile-message: 4.0.2
     dev: false
 
-  /vite@5.2.8(sass@1.74.1):
+  /vite@5.2.8(sass@1.75.0):
     resolution: {integrity: sha512-OyZR+c1CE8yeHw5V5t59aXsUPPVTHMDjEZz8MgguLL/Q7NblxhZUlTu9xSPqlsUO/y+X7dlU05jdhvyycD55DA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3570,7 +3570,7 @@ packages:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.14.1
-      sass: 1.74.1
+      sass: 1.75.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: false
@@ -3583,7 +3583,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.2.8(sass@1.74.1)
+      vite: 5.2.8(sass@1.75.0)
     dev: false
 
   /web-namespaces@2.0.1:
