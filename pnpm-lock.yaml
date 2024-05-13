@@ -10,7 +10,7 @@ importers:
     dependencies:
       astro:
         specifier: ^4.0.0
-        version: 4.8.2(sass@1.77.1)
+        version: 4.8.3(sass@1.77.1)
       sass:
         specifier: ^1.63.3
         version: 1.77.1
@@ -732,8 +732,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@4.8.2:
-    resolution: {integrity: sha512-WBrnNePQ03cF5c+9sjD3TeyJodWMuPCwygDOUo7r+7LbKDN9TJK+KxIxo01AOX4HcexhxcLiTVVCBLSsi+OX9A==}
+  astro@4.8.3:
+    resolution: {integrity: sha512-pgIKopkmAUXY3EJHdG7zQpudtBzYAsd94A1R7jmLpH2LFZvzHEkAdHnunmSVmgikJCNqtEo3bUCHgLnCPQaN1g==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2421,7 +2421,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@4.8.2(sass@1.77.1):
+  astro@4.8.3(sass@1.77.1):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0
