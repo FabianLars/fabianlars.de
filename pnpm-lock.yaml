@@ -10,10 +10,10 @@ importers:
     dependencies:
       astro:
         specifier: ^4.0.0
-        version: 4.10.3(sass@1.77.5)
+        version: 4.10.3(sass@1.77.6)
       sass:
         specifier: ^1.63.3
-        version: 1.77.5
+        version: 1.77.6
 
 packages:
 
@@ -1410,8 +1410,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  sass@1.77.5:
-    resolution: {integrity: sha512-oDfX1mukIlxacPdQqNb6mV2tVCrnE+P3nVYioy72V5tlk56CPNcO4TCuFcaCRKKfJ1M3lH95CleRS+dVKL2qMg==}
+  sass@1.77.6:
+    resolution: {integrity: sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2218,7 +2218,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@4.10.3(sass@1.77.5):
+  astro@4.10.3(sass@1.77.6):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0
@@ -2277,8 +2277,8 @@ snapshots:
       tsconfck: 3.1.0
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.3.1(sass@1.77.5)
-      vitefu: 0.2.5(vite@5.3.1(sass@1.77.5))
+      vite: 5.3.1(sass@1.77.6)
+      vitefu: 0.2.5(vite@5.3.1(sass@1.77.6))
       which-pm: 2.2.0
       yargs-parser: 21.1.1
       zod: 3.23.8
@@ -3361,7 +3361,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  sass@1.77.5:
+  sass@1.77.6:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.6
@@ -3609,18 +3609,18 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite@5.3.1(sass@1.77.5):
+  vite@5.3.1(sass@1.77.6):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.38
       rollup: 4.18.0
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.77.5
+      sass: 1.77.6
 
-  vitefu@0.2.5(vite@5.3.1(sass@1.77.5)):
+  vitefu@0.2.5(vite@5.3.1(sass@1.77.6)):
     optionalDependencies:
-      vite: 5.3.1(sass@1.77.5)
+      vite: 5.3.1(sass@1.77.6)
 
   web-namespaces@2.0.1: {}
 
