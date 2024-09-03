@@ -10,7 +10,7 @@ importers:
     dependencies:
       next:
         specifier: 14.2.7
-        version: 14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)
+        version: 14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -31,8 +31,8 @@ importers:
         specifier: 18.3.0
         version: 18.3.0
       sass:
-        specifier: 1.77.8
-        version: 1.77.8
+        specifier: 1.78.0
+        version: 1.78.0
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -365,8 +365,8 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
-  sass@1.77.8:
-    resolution: {integrity: sha512-4UHg6prsrycW20fqLGPShtEvo/WyHRVRHwOP4DzkUrObWoWI05QBSfzU71TVB7PFaL104TwNaHpjlWXAZbQiNQ==}
+  sass@1.78.0:
+    resolution: {integrity: sha512-AaIqGSrjo5lA2Yg7RvFZrlXDBCp3nV4XP73GrLGvdRWWwk+8H3l0SDvq/5bA4eF+0RFPLuWUk3E+P1U/YqnpsQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -642,7 +642,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8):
+  next@14.2.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0):
     dependencies:
       '@next/env': 14.2.7
       '@swc/helpers': 0.5.5
@@ -663,7 +663,7 @@ snapshots:
       '@next/swc-win32-arm64-msvc': 14.2.7
       '@next/swc-win32-ia32-msvc': 14.2.7
       '@next/swc-win32-x64-msvc': 14.2.7
-      sass: 1.77.8
+      sass: 1.78.0
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -694,7 +694,7 @@ snapshots:
     dependencies:
       picomatch: 2.3.1
 
-  sass@1.77.8:
+  sass@1.78.0:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.7
