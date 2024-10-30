@@ -10,10 +10,10 @@ importers:
     dependencies:
       astro:
         specifier: ^4.0.0
-        version: 4.16.7(rollup@4.24.2)(sass@1.80.4)(typescript@5.6.3)
+        version: 4.16.7(rollup@4.24.2)(sass@1.80.5)(typescript@5.6.3)
       sass:
         specifier: ^1.63.3
-        version: 1.80.4
+        version: 1.80.5
 
 packages:
 
@@ -1389,8 +1389,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  sass@1.80.4:
-    resolution: {integrity: sha512-rhMQ2tSF5CsuuspvC94nPM9rToiAFw2h3JTrLlgmNw1MH79v8Cr3DH6KF6o6r+8oofY3iYVPUf66KzC8yuVN1w==}
+  sass@1.80.5:
+    resolution: {integrity: sha512-TQd2aoQl/+zsxRMEDSxVdpPIqeq9UFc6pr7PzkugiTx3VYCFPUaa3P4RrBQsqok4PO200Vkz0vXQBNlg7W907g==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2198,7 +2198,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@4.16.7(rollup@4.24.2)(sass@1.80.4)(typescript@5.6.3):
+  astro@4.16.7(rollup@4.24.2)(sass@1.80.5)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -2254,8 +2254,8 @@ snapshots:
       tsconfck: 3.1.4(typescript@5.6.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.3
-      vite: 5.4.10(sass@1.80.4)
-      vitefu: 1.0.3(vite@5.4.10(sass@1.80.4))
+      vite: 5.4.10(sass@1.80.5)
+      vitefu: 1.0.3(vite@5.4.10(sass@1.80.5))
       which-pm: 3.0.0
       xxhash-wasm: 1.0.2
       yargs-parser: 21.1.1
@@ -3247,7 +3247,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  sass@1.80.4:
+  sass@1.80.5:
     dependencies:
       '@parcel/watcher': 2.4.1
       chokidar: 4.0.1
@@ -3439,18 +3439,18 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@5.4.10(sass@1.80.4):
+  vite@5.4.10(sass@1.80.5):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.24.2
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.80.4
+      sass: 1.80.5
 
-  vitefu@1.0.3(vite@5.4.10(sass@1.80.4)):
+  vitefu@1.0.3(vite@5.4.10(sass@1.80.5)):
     optionalDependencies:
-      vite: 5.4.10(sass@1.80.4)
+      vite: 5.4.10(sass@1.80.5)
 
   web-namespaces@2.0.1: {}
 
